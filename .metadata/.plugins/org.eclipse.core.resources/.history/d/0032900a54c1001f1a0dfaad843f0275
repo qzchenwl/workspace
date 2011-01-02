@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, UIDemo!</string>
+    <string name="app_name">UIDemo</string>
+    <string name="main_title">我是标题</string>
+    <string name="continue_label">继续吧</string>
+    <string name="new_game">再来一次</string>
+    <string name="about_label">关于</string>
+    <string name="exit_label">退出</string>
+</resources>

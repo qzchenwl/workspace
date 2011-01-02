@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="foo.map"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:name="RotateMap"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 使用 Google Maps API -->
+        <uses-library android:name="com.google.android.maps" />
+    </application>
+
+  	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 精确位置，例如：GPS -->
+  	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 不精确位置，例如A-GPS -->
+  	<uses-permission android:name="android.permission.INTERNET" /> <!-- 网络权限 -->
+</manifest> 
